@@ -1,0 +1,37 @@
+.mainNav {
+  width: 100vh;
+  height: 45px;
+  position: fixed;
+  background: #4c4c4c;
+  -webkit-transform-origin: left top;
+  -webkit-transform: rotate(-90deg) translateX(-100%);
+}
+.mainNav a {
+  text-decoration: none;
+}
+.mainNav li {
+  list-style: none;
+}
+.mainNav ul {
+  margin: 0;
+}
+
+.mainNav ul.nav {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.mainNav ul.nav li {
+  margin-right: 20px;
+  float: right;
+  height: 100%;
+  line-height: 45px;
+  padding: 0 1rem;
+}
+.mainNav ul.nav li a {
+  color: #fff;
+}
+
+.mainNav ul.nav li:hover {
+  background-color: #3a3939;
+}
