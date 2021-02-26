@@ -3,9 +3,34 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1.5fr repeat(2, 1fr);
   gap: 2px 2px;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  color: white;
+  grid-auto-flow: column;
+  color: #ffffff;
+  border-color: transparent;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.footerArea::before {
+  display: inline-block;
+  content: "";
+  border-top: 0.2rem solid #4c4c4c;
+  width: 80%;
+  margin: 0 5rem;
+  transform: translateY(-1rem);
+}
+
+.footerContainer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerContainer a:hover {
+  color: #858a5d;
+}
+
+.footerContainer a,
+h3 {
+  justify-self: flex-start;
+  margin-left: 10vw;
 }
