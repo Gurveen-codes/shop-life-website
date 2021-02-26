@@ -1,0 +1,11 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.5fr repeat(2, 1fr);
+  gap: 2px 2px;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  color: white;
+}

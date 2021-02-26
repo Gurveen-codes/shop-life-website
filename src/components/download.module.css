@@ -1,0 +1,29 @@
+.downloadArea {
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.downloadArea h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 0;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  line-height: 4.5rem;
+}
+.appleBadge {
+  height: 5.5rem;
+  width: 16rem;
+  margin-left: 1rem;
+}
+.googleBadge {
+  height: 8rem;
+  width: 20rem;
+}

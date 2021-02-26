@@ -3,7 +3,7 @@ import classes from "./navbar.module.css";
 
 const NavBar = () => {
   return (
-    <div class={classes.mainNav}>
+    <nav class={classes.mainNav}>
       <ul class={classes.nav}>
         <li>
           <a href="#">Home</a>
@@ -18,7 +18,7 @@ const NavBar = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
