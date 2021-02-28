@@ -6,6 +6,10 @@ body {
   font-family: sans-serif;
 }
 
+.bannerArea {
+  margin-top: 10rem;
+}
+
 .scene {
   /* border: 1px solid #ccc; */
   margin: 40px 0;

@@ -33,7 +33,7 @@ const Banner = () => {
   };
 
   return (
-    <section>
+    <section className="bannerArea">
       <div className="scene">
         <div className="carousel" ref={carouselRef}>
           <div className="carousel__cell active">1</div>
