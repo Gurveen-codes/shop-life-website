@@ -29,6 +29,11 @@ textarea {
   transition: all 0.3s;
   border-bottom: 2px solid #e6e6e6;
   color: #ccc;
+  font-size: 15px;
+}
+
+.form textarea {
+  resize: vertical;
 }
 .form input:focus,
 textarea:focus {
