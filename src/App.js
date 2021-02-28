@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <NavBar></NavBar>
       <main>
-        <Banner items={[1, 2, 3, 4, 5]} active={0}></Banner>
+        {/* <Banner ></Banner> */}
         <Download></Download>
         <ContactForm></ContactForm>
         <Footer></Footer>
