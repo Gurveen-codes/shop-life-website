@@ -32,7 +32,7 @@ const ContactForm = () => {
 
   return (
     <form className={classes.form} method="POST">
-      <h1>CONTACT US</h1>
+      <h1>Contact Us</h1>
       <label>Name</label>
       <input
         id="name"
