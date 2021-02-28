@@ -5,7 +5,7 @@ import classes from "./download.module.css";
 const Download = () => {
   return (
     <section className={classes.downloadArea}>
-      <h1>Welcome to the ARketing Era</h1>
+      <h1>Discover what all the buzz is about!</h1>
       <div className={classes.downloadLinks}>
         <a href="https://play.google.com/store/apps/details?id=app.tvish.TvishEcommerce&hl=en_IN&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
           <img

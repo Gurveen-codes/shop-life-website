@@ -3,8 +3,8 @@ import classes from "./navbar.module.css";
 
 const NavBar = () => {
   return (
-    <nav class={classes.mainNav}>
-      <ul class={classes.nav}>
+    <nav className={classes.mainNav}>
+      <ul clasName={classes.nav}>
         <li>
           <a href="#">Home</a>
         </li>
