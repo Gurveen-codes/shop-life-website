@@ -1,5 +1,5 @@
 import React from "react";
-import apple_store_badge from "../images/apple_img_v2.png";
+import apple_store_badge from "../../images/apple_img_v2.png";
 import classes from "./download.module.css";
 
 const Download = () => {

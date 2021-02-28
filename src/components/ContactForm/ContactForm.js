@@ -10,6 +10,7 @@ const ContactForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
   };
+
   const handleChange = (event) => {
     const field = event.target.id;
     switch (field) {
