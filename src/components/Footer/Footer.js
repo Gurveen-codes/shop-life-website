@@ -1,5 +1,4 @@
 import React from "react";
-import classNamees from "./footer.module.css";
 import "./footer.css";
 
 const Footer = () => {
@@ -8,15 +7,15 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer_social">
           <h1 className="footer_logo">Tvish</h1>
-          <div className="icons">
+          <div className="footer_icons">
             <a href="#">
-              <i class="lni lni-twitter-original"></i>
+              <i className="lni lni-twitter-original"></i>
             </a>
             <a href="#">
-              <i class="lni lni-facebook-original"></i>
+              <i className="lni lni-facebook-original"></i>
             </a>
             <a href="#">
-              <i class="lni lni-instagram-original"></i>
+              <i className="lni lni-instagram-original"></i>
             </a>
           </div>
         </div>
