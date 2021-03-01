@@ -7,6 +7,12 @@
 }
 .icons a {
   color: #999;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.25);
 }
 
 .footerArea {

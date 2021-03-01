@@ -4,10 +4,9 @@
   background: black;
   border-radius: 8px;
   box-shadow: 0 0 30px -10px #ccc;
-  margin: calc(50vh - 220px) auto;
+  margin: 4rem auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
-  box-sizing: border-box;
 }
 .form h1 {
   margin: 10px 0;
@@ -20,12 +19,10 @@
 textarea {
   width: 100%;
   padding: 10px;
-  box-sizing: border-box;
   background: none;
   outline: none;
   resize: none;
   border: 0;
-  font-family: "Montserrat", sans-serif;
   transition: all 0.3s;
   border-bottom: 2px solid #e6e6e6;
   color: #ccc;
@@ -50,7 +47,6 @@ textarea:focus {
   float: right;
   padding: 8px 12px;
   margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
   border: 2px solid black;
   background: #bada55;
   color: black;

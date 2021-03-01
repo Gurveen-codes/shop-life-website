@@ -9,9 +9,15 @@ const Footer = () => {
         <div className="footer_social">
           <h1 className="footer_logo">Tvish</h1>
           <div className="icons">
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
+            <a href="#">
+              <i class="lni lni-twitter-original"></i>
+            </a>
+            <a href="#">
+              <i class="lni lni-facebook-original"></i>
+            </a>
+            <a href="#">
+              <i class="lni lni-instagram-original"></i>
+            </a>
           </div>
         </div>
 
