@@ -47,13 +47,14 @@ textarea:focus {
   float: right;
   padding: 8px 12px;
   margin: 8px 0 0;
-  border: 2px solid black;
-  background: #bada55;
-  color: black;
+  background-image: linear-gradient(135deg, #81fbb8 0%, #28c76f 100%);
+
+  outline: none;
+  border: none;
   cursor: pointer;
-  /* transition: all 0.3s ease; */
+  transition: all 0.3s ease;
 }
 .form button:hover {
   transform: scale(1.05);
-  border: 2px solid white;
+  box-shadow: 0 20px 30px -6px rgba(60, 211, 128, 0.5);
 }

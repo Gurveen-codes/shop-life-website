@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar/NavBar";
 // import Banner from "./components/Banner";
 import ContactForm from "./components/ContactForm/ContactForm";
 import TrustUs from "./components/TrustUs/trust";
+import Demo from "./components/Demo/demo";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <main>
         {/* <Banner ></Banner> */}
         <Download></Download>
+        <Demo></Demo>
         <TrustUs></TrustUs>
         <ContactForm></ContactForm>
 
