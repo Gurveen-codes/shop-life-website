@@ -5,6 +5,7 @@ const NavBar = () => {
   return (
     <nav className={classes.mainNav}>
       <ul className={classes.nav}>
+        <li className={classes.nav_logo}>Tvish</li>
         <li>
           <a href="#">Home</a>
         </li>

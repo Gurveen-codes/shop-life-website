@@ -18,6 +18,15 @@ ul.nav {
   width: 100vw;
 }
 
+ul.nav li.nav_logo {
+  color: black;
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-style: italic;
+  background: linear-gradient(135deg, #81fbb8 0%, #28c76f 100%);
+}
+
 ul.nav li {
   list-style: none;
   margin-right: 20px;
@@ -27,7 +36,7 @@ ul.nav li {
   line-height: 45px;
 }
 
-ul.nav li:hover {
+ul.nav li:hover:not(.nav_logo) {
   background: #4c4c4c;
 }
 ul.nav li a {
