@@ -1,19 +1,19 @@
 import React from "react";
 import "./App.css";
-import Download from "./components/Download/Download";
-import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
-// import Banner from "./components/Banner";
-import ContactForm from "./components/ContactForm/ContactForm";
+import Banner from "./components/Banner/Banner";
+import Download from "./components/Download/Download";
+import Demo from "./components/Demo/Demo";
 import TrustUs from "./components/TrustUs/trust";
-import Demo from "./components/Demo/demo";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <div className="App">
       <NavBar></NavBar>
       <main>
-        {/* <Banner ></Banner> */}
+        <Banner></Banner>
         <Download></Download>
         <Demo></Demo>
         <TrustUs></TrustUs>

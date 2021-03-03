@@ -1,35 +1,40 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./banner.css";
 
 const Banner = () => {
   const [cellCount, setCellCount] = useState(9);
-  const [selectedIndex, setSelectedIndex] = useState(1);
+  const [selectedIndex, setSelectedIndex] = useState(0);
   const carouselRef = useRef(null);
 
-  const rotateCarousel = () => {
+  // const rotateCarousel = () => {
+  //   var carousel = carouselRef.current;
+  //   var angle = (selectedIndex / cellCount) * -360;
+  //   carousel.style.transform = "translateZ(-288px) rotateY(" + angle + "deg)";
+
+  //   // var current = carouselRef.current.children[selectedIndex];
+  //   // current.classList.add("active");
+  // };
+  useEffect(() => {
     var carousel = carouselRef.current;
     var angle = (selectedIndex / cellCount) * -360;
-    carousel.style.transform = "translateZ(-288px) rotateY(" + angle + "deg)";
+    var radius = Math.round(
+      carouselRef.current.offsetWidth / 2 / Math.tan(Math.PI / cellCount)
+    );
 
-    var current = carouselRef.current.children[selectedIndex];
-    current.classList.add("active");
-  };
+    carousel.style.transform =
+      "translateZ(-" + radius + "px) rotateY(" + angle + "deg)";
+
+    console.log(carouselRef.current.offsetWidth);
+  }, [selectedIndex, cellCount]);
 
   const previous = () => {
-    console.log("hit");
-
-    rotateCarousel();
+    // rotateCarousel();
+    setSelectedIndex((x) => x - 1);
   };
 
   const next = () => {
-    setSelectedIndex((prevIndex) => {
-      if (prevIndex === 8) {
-        return 0;
-      } else {
-        return prevIndex + 1;
-      }
-    });
-    rotateCarousel();
+    // rotateCarousel();
+    setSelectedIndex((x) => x + 1);
   };
 
   return (
