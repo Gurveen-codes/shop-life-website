@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import Banner from "./components/Banner/Banner";
+// import Banner from "./components/Banner/Banner";
+import BannerAlt from "./components/Banner-Alt/BannerAlt";
 import Download from "./components/Download/Download";
 import Demo from "./components/Demo/Demo";
 import TrustUs from "./components/TrustUs/trust";
@@ -13,7 +14,7 @@ const App = () => {
     <div className="App">
       <NavBar></NavBar>
       <main>
-        <Banner></Banner>
+        <BannerAlt></BannerAlt>
         <Download></Download>
         <Demo></Demo>
         <TrustUs></TrustUs>
