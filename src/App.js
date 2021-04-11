@@ -13,7 +13,7 @@ const App = () => {
 		<div className="App">
 			<NavBar></NavBar>
 			<main>
-				<BannerAlt></BannerAlt>
+				<Banner></Banner>
 				<Download></Download>
 				<Demo></Demo>
 				<TrustUs></TrustUs>
